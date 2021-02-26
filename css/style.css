@@ -211,13 +211,19 @@ footer i:hover {
 }
 
 @media only screen and (max-width: 768px) {
-    /* Header styles */
-    header{
-        flex-direction: column;
+
+    /* Showcase styles */
+    #showcase {
+        height: 400px;
     }
-    header ul {
-        margin-top: 20px;
+    #showcase h1 {
+        font-size: 20px;
     }
+
+    #showcase p {
+        font-size: 15px;
+    }
+
     /* Project styles */
     .project-container {
         padding: 30px;
@@ -236,7 +242,18 @@ footer i:hover {
 }
 
 @media only screen and (max-width: 576px) {
+    /* Header styles */
+    header{
+        flex-direction: column;
+    }
+    header ul {
+        margin-top: 20px;
+    }
+    
     /* Project styles */
+    #projects{
+        padding-top: 80px;
+    }
     .project-container {
         padding: 10px;
     }
