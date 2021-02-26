@@ -162,6 +162,7 @@ footer h1 {
     text-align: center;
     color: var(--color-text-light);
     font-size: 30px;
+    margin: 0 20px;
 }
 
 footer p {
@@ -224,6 +225,13 @@ footer i:hover {
     .card {
         width: 500px;
         height: 300px;
+    }
+    /* Footer styles */
+    footer h1{
+        font-size: 20px;
+    }
+    footer p{
+        font-size: 15px;
     }
 }
 
