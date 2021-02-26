@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <title>Protfolio</title>
+    <!-- CDN (font-awesome)-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- style links -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="home">
+    <!--  Header part  -->
+    <header id="header">
+        <div class="colors-container">
+            <div class="green" onclick="changeColorToGreen()"></div>
+            <div class="orange" onclick="changeColorToOrange()"></div>
+            <div class="blue" onclick="changeColorToDark()"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Showcase section -->
+    <section id="showcase">
+        <img src="./images/AvatarMaker.svg" alt="personal avatar">
+        <h1>Designer & Full Stack Developer</h1>
+        <p>I design and code beautifully authentic apps, and I love what I do.</p>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects">
+        <h1>Projects section</h1>
+        <p>Here are a few projects I've worked on recently.</p>
+        <div class="project-container">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+    </section>
+
+    <!--  Footer part  -->
+    <footer id="footer">
+        <h1>Living, learning, & leveling up one day at a time.</h1>
+        <ul>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="far fa-envelope"></i></a></li>
+        </ul>
+        <p>Handcrafted by Machfar &copy; 2021</p>
+    </footer>
+    <!--  Scripts  -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
